@@ -77,7 +77,37 @@ header{
     
 }
 
-
+footer{
+    width: 90vw;
+    /* margin-top: 100% ; */
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.circle img
+{
+    width: 80px;
+    height: 80px;
+    overflow:hidden;
+    background-color: white;
+    margin: 10px;
+    border : 5px solid white;
+    border-radius: 100%;
+}
+.social-handles{
+    display: flex;
+}
+.social-handles *{
+    padding-left: 10px;
+    color: white;
+}
 @media screen and (max-width: 425px){
     .card-contributer-picture{
         width:90px;
@@ -85,3 +115,11 @@ header{
     }
        
    }
+@media screen and (max-width : 625px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+}
