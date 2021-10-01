@@ -19,12 +19,14 @@
                 <div class="card-left bg-red-dark">
                     <div class="card-contributer-picture">
                 <!-- Change below here -->
+                <!-- Your Picture -->
                         <img src="  projects/<folder name>/<photo.jpg> " alt=" <Your Name> ">
             
                     </div>
                     <div class="card-contributer-name">
 
                 <!-- Change below here -->
+                <!-- Your Name and github link -->
                         <a class="mont-semi-bold-italic txt-white hover-underline-animation" href="https://www.github.com/ <your github id>"> <your name> </a>
             
                     </div>
@@ -33,12 +35,14 @@
                     <div class="card-header mont-bold txt-white">
 
                     <!-- Change below here -->
-                        <a href="projects/<project folder name>">
+                    <!-- Project index.html link and Project name -->
+                        <a href="projects/<project folder name>/index.html">
                         <h4 class="hover-underline-animation"> <project name> </h4>
                         </a>
 
                         <hr>
-
+                        <!-- Change below here -->
+                        <!-- Project Description -->
                         <p class="mont-light "> 
                                 <!-- Add your project's description -->
                                 <project description>
@@ -49,6 +53,7 @@
                     <div class="card-footer mont-light">
 
                    <!-- Change below Here (Tags) --> 
+                   <!-- Add Tags Here -->
                         <p class="bg-red-dark txt-white">html</p>
                         <p class="bg-red-dark txt-white">css</p>
 
@@ -59,6 +64,7 @@
 
 
 ## PR structure
+`
 Project Name : **same as the folder name** 
 
 Contributer Name: **your name**
@@ -66,7 +72,7 @@ Contributer Name: **your name**
 What I have created is : 
 
 **Write about your code/project**
-
+`
 
 <br><br><br><br><br>
 Happy Hacktoberfest ! <br>
