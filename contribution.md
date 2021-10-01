@@ -5,9 +5,15 @@
 2. Paste your project inside ` /projects/<project_name> `folder.
 3. Also put your **photo inside this same folder** , so you can use it on card.
 4. Create a card for your project inside `/projects.html. `
+5. Paste the card code below the previous card code.
+6. Commit and create PR.
+7. Create a PR with the given structure is appreciated.
 
 ## How to create the card
->Use the given below code snippet to create the card
+>Use the given below code snippet to create the card   
+> **Look for: "Change below here"**  
+> You have to change at 7 places + Tags.
+
 ```
 <div class="card bg-light shadow">
                 <div class="card-left bg-red-dark">
@@ -50,4 +56,18 @@
                 </div>
             </div>
 ```
-> You have to change at 7 places + the tags.
+
+
+## PR structure
+Project Name : **same as the folder name** 
+
+Contributer Name: **your name**
+
+What I have created is : 
+
+**Write about your code/project**
+
+
+<br><br><br><br><br>
+Happy Hacktoberfest ! <br>
+**Team GDSC-SCTCE**
